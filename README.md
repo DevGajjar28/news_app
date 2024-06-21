@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# News Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Overview
 
-## Available Scripts
+Welcome to our News Website, a responsive and high-performance platform for accessing the latest news from various sources. Built using React, Axios, and Tailwind CSS, this site offers a seamless and user-friendly experience across all devices.
 
-In the project directory, you can run:
+## Technologies Used
 
-### `npm start`
+React: A powerful JavaScript library for building user interfaces.
+Axios: A promise-based HTTP client for the browser and Node.js, used for fetching data from the NewsAPI.
+Tailwind CSS: A utility-first CSS framework for rapidly building custom designs.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Get started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Clone the repository: git clone https://github.com/yourusername/news-website.git
+Install dependencies: npm install
+Add your NewsAPI key: Register at NewsAPI to get your API key.
+Start the development server: npm start                      
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+# Homepage Layout
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+News Article List: Displays a list of news articles with a title, image, and summary.
+Detailed View Links: Each article links to a detailed view page for in-depth reading.
+Responsive Design: Ensures a smooth experience on both desktop and mobile devices, adapting layout accordingly.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Category Filtering
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Filter Options: Includes a dropdown or set of buttons to filter articles by categories such as Business, Technology, Entertainment, and more.
+Dynamic UI Update: The interface updates to display articles from the selected category in real-time.
 
-### `npm run eject`
+# Pagination
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Paginated Articles: Implements pagination at the bottom of the homepage for easy navigation.
+Page Navigation: Allows users to navigate through different pages of articles seamlessly.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Detailed Article View Page
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Full Article Display: Navigates users to a detailed view page upon clicking an article summary.
+Rich Media Content: Displays the full content of the article, including any media such as images or videos.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# API Integration
 
-## Learn More
+NewsAPI Integration: Uses NewsAPI to fetch the latest news articles.
+Error Handling: Ensures the application gracefully handles loading states and errors during API calls.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## preview video
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+https://drive.google.com/drive/folders/1tIvARvJszLMOE1sWKnJIJTfjIh8bYLT9?usp=sharing
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## screenshot
+![image](https://github.com/DevGajjar28/news_app/assets/145287513/52de0dad-baab-4c64-bcbf-2f5995e70b6d)
+![image](https://github.com/DevGajjar28/news_app/assets/145287513/49267f71-a7ca-495f-8548-4881d3972ca7)
+![image](https://github.com/DevGajjar28/news_app/assets/145287513/a20d3091-18a9-4880-af10-c177c6707de4)
+![image](https://github.com/DevGajjar28/news_app/assets/145287513/f99fc2c5-3cb3-4568-8d3e-b6869bd99b90)
+![image](https://github.com/DevGajjar28/news_app/assets/145287513/fb7ae59d-ed65-44a9-81e9-7fae809347e8)
+![image](https://github.com/DevGajjar28/news_app/assets/145287513/d7373fa5-ddce-4ec3-869f-d2037bc52da7)
+![image](https://github.com/DevGajjar28/news_app/assets/145287513/9bf5dd0b-0e32-4ae7-9b27-5979f030a0bc)
